@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_android_glide_advanced.iml" filepath="$PROJECT_DIR$/demo_android_glide_advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/demoglide.iml" filepath="$PROJECT_DIR$/demoglide.iml" />
     </modules>
   </component>

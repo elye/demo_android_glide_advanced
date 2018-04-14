@@ -31,7 +31,7 @@ class MyImageRequestListener(private val callback: Callback? = null) : RequestLi
                                  isFirstResource: Boolean): Boolean {
 
         callback?.onSuccess(dataSource.toString())
-        target.onResourceReady(resource, DrawableCrossFadeTransition(1000, true))
+        target.onResourceReady(resource, DrawableCrossFadeTransition(1000, isFirstResource))
         return true
 
     }
