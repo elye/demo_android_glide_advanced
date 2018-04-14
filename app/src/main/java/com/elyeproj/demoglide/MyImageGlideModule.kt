@@ -32,7 +32,7 @@ class MyImageGlideModule : AppGlideModule() {
         val performanceDetect = MainApplication.component.getPerformanceChecker()
         if (performanceDetect.isHighPerformingDevice) {
             builder.setDefaultRequestOptions(RequestOptions().format(DecodeFormat.PREFER_ARGB_8888))
-        } else run {
+        } else {
             builder.setDefaultRequestOptions(RequestOptions().format(DecodeFormat.PREFER_RGB_565))
         }
     }
